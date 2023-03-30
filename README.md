@@ -1,4 +1,4 @@
-#ByPass Office 2019 Windows 10/11
+# ByPass Office 2019 Windows 10/11
 Con esta herramienta podrás instalar office 2019 original.
 
 Instrucciones de USO:
@@ -7,7 +7,7 @@ Ejecutar el archivo Bypass como administrador.
 Pulsar una tecla para que haga la magia.
 Activara a traves de los recursos de windows el office.
 
-#Windows-11-Bypass English
+# Windows-11-Bypass English
 With this tool you can install Office 2019 original.
 
 Instructions for use:
