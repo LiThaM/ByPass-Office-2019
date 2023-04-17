@@ -42,7 +42,7 @@ cd /d %ProgramFiles%\Microsoft Office\Office16
 cd /d %ProgramFiles(x86)%\Microsoft Office\Office16
 echo.
 echo  * Buscamos y lanzamos Bypass Propio de Windows
-for /f %x in ('dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
+for /f %%x in ('dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x"
 echo  * Lanzamos parches y licencia en sistema, activando desde el propio sistema de licencias de Windows 11/Windows 10
 cscript ospp.vbs /setprt:1688
 cscript ospp.vbs /unpkey:6MWKP >nul
